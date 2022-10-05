@@ -1,0 +1,1306 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Method App\\\\Domains\\\\Announcement\\\\Models\\\\Announcement\\:\\:scopeEnabled\\(\\) has parameter \\$query with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Announcement/Models/Announcement.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Announcement\\\\Models\\\\Announcement\\:\\:scopeForArea\\(\\) has parameter \\$area with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Announcement/Models/Announcement.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Announcement\\\\Models\\\\Announcement\\:\\:scopeForArea\\(\\) has parameter \\$query with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Announcement/Models/Announcement.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Announcement\\\\Models\\\\Announcement\\:\\:scopeInTimeFrame\\(\\) has parameter \\$query with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Announcement/Models/Announcement.php
+
+		-
+			message: "#^Property App\\\\Domains\\\\Announcement\\\\Models\\\\Announcement\\:\\:\\$logFillable has no type specified\\.$#"
+			count: 1
+			path: app/Domains/Announcement/Models/Announcement.php
+
+		-
+			message: "#^Property App\\\\Domains\\\\Announcement\\\\Models\\\\Announcement\\:\\:\\$logOnlyDirty has no type specified\\.$#"
+			count: 1
+			path: app/Domains/Announcement/Models/Announcement.php
+
+		-
+			message: "#^Access to undefined constant Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:TYPE_BACKEND\\.$#"
+			count: 1
+			path: app/Domains/Announcement/Services/AnnouncementService.php
+
+		-
+			message: "#^Access to undefined constant Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:TYPE_FRONTEND\\.$#"
+			count: 1
+			path: app/Domains/Announcement/Services/AnnouncementService.php
+
+		-
+			message: "#^Call to an undefined static method Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:enabled\\(\\)\\.$#"
+			count: 2
+			path: app/Domains/Announcement/Services/AnnouncementService.php
+
+		-
+			message: "#^PHPDoc tag @var has invalid value \\(\\)\\: Unexpected token \"\\\\n     \", expected type at offset 15$#"
+			count: 1
+			path: app/Domains/Auth/Events/Role/RoleCreated.php
+
+		-
+			message: "#^Property App\\\\Domains\\\\Auth\\\\Events\\\\Role\\\\RoleCreated\\:\\:\\$role has no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Events/Role/RoleCreated.php
+
+		-
+			message: "#^PHPDoc tag @var has invalid value \\(\\)\\: Unexpected token \"\\\\n     \", expected type at offset 15$#"
+			count: 1
+			path: app/Domains/Auth/Events/Role/RoleDeleted.php
+
+		-
+			message: "#^Property App\\\\Domains\\\\Auth\\\\Events\\\\Role\\\\RoleDeleted\\:\\:\\$role has no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Events/Role/RoleDeleted.php
+
+		-
+			message: "#^PHPDoc tag @var has invalid value \\(\\)\\: Unexpected token \"\\\\n     \", expected type at offset 15$#"
+			count: 1
+			path: app/Domains/Auth/Events/Role/RoleUpdated.php
+
+		-
+			message: "#^Property App\\\\Domains\\\\Auth\\\\Events\\\\Role\\\\RoleUpdated\\:\\:\\$role has no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Events/Role/RoleUpdated.php
+
+		-
+			message: "#^PHPDoc tag @var has invalid value \\(\\)\\: Unexpected token \"\\\\n     \", expected type at offset 15$#"
+			count: 1
+			path: app/Domains/Auth/Events/User/UserCreated.php
+
+		-
+			message: "#^Property App\\\\Domains\\\\Auth\\\\Events\\\\User\\\\UserCreated\\:\\:\\$user has no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Events/User/UserCreated.php
+
+		-
+			message: "#^PHPDoc tag @var has invalid value \\(\\)\\: Unexpected token \"\\\\n     \", expected type at offset 15$#"
+			count: 1
+			path: app/Domains/Auth/Events/User/UserDeleted.php
+
+		-
+			message: "#^Property App\\\\Domains\\\\Auth\\\\Events\\\\User\\\\UserDeleted\\:\\:\\$user has no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Events/User/UserDeleted.php
+
+		-
+			message: "#^PHPDoc tag @var has invalid value \\(\\)\\: Unexpected token \"\\\\n     \", expected type at offset 15$#"
+			count: 1
+			path: app/Domains/Auth/Events/User/UserDestroyed.php
+
+		-
+			message: "#^Property App\\\\Domains\\\\Auth\\\\Events\\\\User\\\\UserDestroyed\\:\\:\\$user has no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Events/User/UserDestroyed.php
+
+		-
+			message: "#^PHPDoc tag @var has invalid value \\(\\)\\: Unexpected token \"\\\\n     \", expected type at offset 15$#"
+			count: 1
+			path: app/Domains/Auth/Events/User/UserLoggedIn.php
+
+		-
+			message: "#^Property App\\\\Domains\\\\Auth\\\\Events\\\\User\\\\UserLoggedIn\\:\\:\\$user has no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Events/User/UserLoggedIn.php
+
+		-
+			message: "#^PHPDoc tag @var has invalid value \\(\\)\\: Unexpected token \"\\\\n     \", expected type at offset 15$#"
+			count: 1
+			path: app/Domains/Auth/Events/User/UserRestored.php
+
+		-
+			message: "#^Property App\\\\Domains\\\\Auth\\\\Events\\\\User\\\\UserRestored\\:\\:\\$user has no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Events/User/UserRestored.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Events\\\\User\\\\UserStatusChanged\\:\\:__construct\\(\\) has parameter \\$status with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Events/User/UserStatusChanged.php
+
+		-
+			message: "#^PHPDoc tag @var has invalid value \\(\\)\\: Unexpected token \"\\\\n     \", expected type at offset 15$#"
+			count: 2
+			path: app/Domains/Auth/Events/User/UserStatusChanged.php
+
+		-
+			message: "#^Property App\\\\Domains\\\\Auth\\\\Events\\\\User\\\\UserStatusChanged\\:\\:\\$status has no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Events/User/UserStatusChanged.php
+
+		-
+			message: "#^Property App\\\\Domains\\\\Auth\\\\Events\\\\User\\\\UserStatusChanged\\:\\:\\$user has no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Events/User/UserStatusChanged.php
+
+		-
+			message: "#^PHPDoc tag @var has invalid value \\(\\)\\: Unexpected token \"\\\\n     \", expected type at offset 15$#"
+			count: 1
+			path: app/Domains/Auth/Events/User/UserUpdated.php
+
+		-
+			message: "#^Property App\\\\Domains\\\\Auth\\\\Events\\\\User\\\\UserUpdated\\:\\:\\$user has no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Events/User/UserUpdated.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\View\\\\View\\:\\:withCategories\\(\\)\\.$#"
+			count: 2
+			path: app/Domains/Auth/Http/Controllers/Backend/Role/RoleController.php
+
+		-
+			message: "#^Cannot call method can\\(\\) on mixed\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Controllers/Backend/User/DeactivatedUserController.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Http\\\\Controllers\\\\Backend\\\\User\\\\DeactivatedUserController\\:\\:update\\(\\) has parameter \\$status with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Controllers/Backend/User/DeactivatedUserController.php
+
+		-
+			message: "#^Parameter \\#1 \\$boolean of function abort_unless expects bool, mixed given\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Controllers/Backend/User/DeletedUserController.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\View\\\\View\\:\\:withRoles\\(\\)\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Controllers/Backend/User/UserController.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\View\\\\View\\:\\:withUser\\(\\)\\.$#"
+			count: 2
+			path: app/Domains/Auth/Http/Controllers/Backend/User/UserController.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\View\\\\View\\:\\:withUser\\(\\)\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Controllers/Backend/User/UserPasswordController.php
+
+		-
+			message: "#^Cannot call method disableTwoFactorAuth\\(\\) on mixed\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Controllers/Frontend/Auth/DisableTwoFactorAuthenticationController.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Http\\\\Controllers\\\\Frontend\\\\Auth\\\\LoginController\\:\\:authenticated\\(\\) has parameter \\$user with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Controllers/Frontend/Auth/LoginController.php
+
+		-
+			message: "#^Parameter \\#1 \\$password of method Illuminate\\\\Auth\\\\SessionGuard\\:\\:logoutOtherDevices\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Controllers/Frontend/Auth/LoginController.php
+
+		-
+			message: "#^Parameter \\#1 \\$boolean of function abort_unless expects bool, mixed given\\.$#"
+			count: 2
+			path: app/Domains/Auth/Http/Controllers/Frontend/Auth/PasswordExpiredController.php
+
+		-
+			message: "#^Parameter \\#1 \\$user of method App\\\\Domains\\\\Auth\\\\Services\\\\UserService\\:\\:updatePassword\\(\\) expects App\\\\Domains\\\\Auth\\\\Models\\\\User, mixed given\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Controllers/Frontend/Auth/PasswordExpiredController.php
+
+		-
+			message: "#^PHPDoc tag @throws with type App\\\\Domains\\\\Auth\\\\Exceptions\\\\RegisterException is not subtype of Throwable$#"
+			count: 1
+			path: app/Domains/Auth/Http/Controllers/Frontend/Auth/RegisterController.php
+
+		-
+			message: "#^Parameter \\#1 \\$boolean of function abort_unless expects bool, mixed given\\.$#"
+			count: 2
+			path: app/Domains/Auth/Http/Controllers/Frontend/Auth/RegisterController.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\View\\\\View\\:\\:withToken\\(\\)\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Controllers/Frontend/Auth/ResetPasswordController.php
+
+		-
+			message: "#^Cannot call method redirect\\(\\) on mixed\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Controllers/Frontend/Auth/SocialController.php
+
+		-
+			message: "#^Cannot call method user\\(\\) on mixed\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Controllers/Frontend/Auth/SocialController.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Http\\\\Controllers\\\\Frontend\\\\Auth\\\\SocialController\\:\\:callback\\(\\) has parameter \\$provider with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Controllers/Frontend/Auth/SocialController.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Http\\\\Controllers\\\\Frontend\\\\Auth\\\\SocialController\\:\\:redirect\\(\\) has parameter \\$provider with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Controllers/Frontend/Auth/SocialController.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\View\\\\View\\:\\:withQrCode\\(\\)\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Controllers/Frontend/Auth/TwoFactorAuthenticationController.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\View\\\\View\\:\\:withRecoveryCodes\\(\\)\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Controllers/Frontend/Auth/TwoFactorAuthenticationController.php
+
+		-
+			message: "#^Cannot call method createTwoFactorAuth\\(\\) on mixed\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Controllers/Frontend/Auth/TwoFactorAuthenticationController.php
+
+		-
+			message: "#^Cannot call method flash\\(\\) on mixed\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Controllers/Frontend/Auth/TwoFactorAuthenticationController.php
+
+		-
+			message: "#^Cannot call method generateRecoveryCodes\\(\\) on mixed\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Controllers/Frontend/Auth/TwoFactorAuthenticationController.php
+
+		-
+			message: "#^Cannot call method getRecoveryCodes\\(\\) on mixed\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Controllers/Frontend/Auth/TwoFactorAuthenticationController.php
+
+		-
+			message: "#^Parameter \\#1 \\$user of method App\\\\Domains\\\\Auth\\\\Services\\\\UserService\\:\\:updatePassword\\(\\) expects App\\\\Domains\\\\Auth\\\\Models\\\\User, mixed given\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Controllers/Frontend/Auth/UpdatePasswordController.php
+
+		-
+			message: "#^Cannot call method hasVerifiedEmail\\(\\) on mixed\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Controllers/Frontend/Auth/VerificationController.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Http\\\\Controllers\\\\Frontend\\\\Auth\\\\VerificationController\\:\\:show\\(\\) should return Illuminate\\\\Http\\\\Response but returns Illuminate\\\\Http\\\\RedirectResponse\\|Illuminate\\\\View\\\\View\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Controllers/Frontend/Auth/VerificationController.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Http\\\\Middleware\\\\AdminCheck\\:\\:handle\\(\\) has parameter \\$request with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Middleware/AdminCheck.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Http\\\\Middleware\\\\PasswordExpires\\:\\:handle\\(\\) has parameter \\$request with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Middleware/PasswordExpires.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Http\\\\Middleware\\\\SuperAdminCheck\\:\\:handle\\(\\) has parameter \\$request with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Middleware/SuperAdminCheck.php
+
+		-
+			message: "#^Cannot call method flush\\(\\) on mixed\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Middleware/ToBeLoggedOut.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Http\\\\Middleware\\\\ToBeLoggedOut\\:\\:handle\\(\\) has parameter \\$request with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Middleware/ToBeLoggedOut.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Http\\\\Middleware\\\\TwoFactorAuthenticationStatus\\:\\:handle\\(\\) has parameter \\$request with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Middleware/TwoFactorAuthenticationStatus.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Http\\\\Middleware\\\\UserCheck\\:\\:handle\\(\\) has parameter \\$request with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Middleware/UserCheck.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Http\\\\Middleware\\\\UserTypeCheck\\:\\:handle\\(\\) has parameter \\$request with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Middleware/UserTypeCheck.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Http\\\\Middleware\\\\UserTypeCheck\\:\\:handle\\(\\) has parameter \\$type with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Middleware/UserTypeCheck.php
+
+		-
+			message: "#^Cannot call method isAdmin\\(\\) on mixed\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Requests/Backend/Role/DeleteRoleRequest.php
+
+		-
+			message: "#^Parameter \\#1 \\$message of class Illuminate\\\\Auth\\\\Access\\\\AuthorizationException constructor expects string\\|null, array\\|string\\|null given\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Requests/Backend/Role/DeleteRoleRequest.php
+
+		-
+			message: "#^Cannot call method isAdmin\\(\\) on mixed\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Requests/Backend/Role/EditRoleRequest.php
+
+		-
+			message: "#^Parameter \\#1 \\$message of class Illuminate\\\\Auth\\\\Access\\\\AuthorizationException constructor expects string\\|null, array\\|string\\|null given\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Requests/Backend/Role/EditRoleRequest.php
+
+		-
+			message: "#^Parameter \\#2 \\$value of method Illuminate\\\\Validation\\\\Rules\\\\Exists\\:\\:where\\(\\) expects array\\|int\\|string\\|null, mixed given\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Requests/Backend/Role/StoreRoleRequest.php
+
+		-
+			message: "#^Cannot call method isAdmin\\(\\) on mixed\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Requests/Backend/Role/UpdateRoleRequest.php
+
+		-
+			message: "#^Parameter \\#1 \\$message of class Illuminate\\\\Auth\\\\Access\\\\AuthorizationException constructor expects string\\|null, array\\|string\\|null given\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Requests/Backend/Role/UpdateRoleRequest.php
+
+		-
+			message: "#^Parameter \\#2 \\$value of method Illuminate\\\\Validation\\\\Rules\\\\Exists\\:\\:where\\(\\) expects array\\|int\\|string\\|null, mixed given\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Requests/Backend/Role/UpdateRoleRequest.php
+
+		-
+			message: "#^Cannot access property \\$id on mixed\\.$#"
+			count: 2
+			path: app/Domains/Auth/Http/Requests/Backend/User/ClearUserSessionRequest.php
+
+		-
+			message: "#^Parameter \\#1 \\$message of class Illuminate\\\\Auth\\\\Access\\\\AuthorizationException constructor expects string\\|null, array\\|string\\|null given\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Requests/Backend/User/ClearUserSessionRequest.php
+
+		-
+			message: "#^Cannot call method isMasterAdmin\\(\\) on mixed\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Requests/Backend/User/DeleteUserRequest.php
+
+		-
+			message: "#^Parameter \\#1 \\$message of class Illuminate\\\\Auth\\\\Access\\\\AuthorizationException constructor expects string\\|null, array\\|string\\|null given\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Requests/Backend/User/DeleteUserRequest.php
+
+		-
+			message: "#^Cannot call method isMasterAdmin\\(\\) on mixed\\.$#"
+			count: 2
+			path: app/Domains/Auth/Http/Requests/Backend/User/EditUserPasswordRequest.php
+
+		-
+			message: "#^Parameter \\#1 \\$message of class Illuminate\\\\Auth\\\\Access\\\\AuthorizationException constructor expects string\\|null, array\\|string\\|null given\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Requests/Backend/User/EditUserPasswordRequest.php
+
+		-
+			message: "#^Cannot call method isMasterAdmin\\(\\) on mixed\\.$#"
+			count: 2
+			path: app/Domains/Auth/Http/Requests/Backend/User/EditUserRequest.php
+
+		-
+			message: "#^Parameter \\#1 \\$message of class Illuminate\\\\Auth\\\\Access\\\\AuthorizationException constructor expects string\\|null, array\\|string\\|null given\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Requests/Backend/User/EditUserRequest.php
+
+		-
+			message: "#^Parameter \\#2 \\$value of method Illuminate\\\\Validation\\\\Rules\\\\Exists\\:\\:where\\(\\) expects array\\|int\\|string\\|null, mixed given\\.$#"
+			count: 2
+			path: app/Domains/Auth/Http/Requests/Backend/User/StoreUserRequest.php
+
+		-
+			message: "#^Cannot call method isMasterAdmin\\(\\) on mixed\\.$#"
+			count: 2
+			path: app/Domains/Auth/Http/Requests/Backend/User/UpdateUserPasswordRequest.php
+
+		-
+			message: "#^Parameter \\#1 \\$message of class Illuminate\\\\Auth\\\\Access\\\\AuthorizationException constructor expects string\\|null, array\\|string\\|null given\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Requests/Backend/User/UpdateUserPasswordRequest.php
+
+		-
+			message: "#^Cannot access property \\$id on mixed\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Requests/Backend/User/UpdateUserRequest.php
+
+		-
+			message: "#^Cannot call method isMasterAdmin\\(\\) on mixed\\.$#"
+			count: 3
+			path: app/Domains/Auth/Http/Requests/Backend/User/UpdateUserRequest.php
+
+		-
+			message: "#^Parameter \\#1 \\$message of class Illuminate\\\\Auth\\\\Access\\\\AuthorizationException constructor expects string\\|null, array\\|string\\|null given\\.$#"
+			count: 1
+			path: app/Domains/Auth/Http/Requests/Backend/User/UpdateUserRequest.php
+
+		-
+			message: "#^Parameter \\#2 \\$value of method Illuminate\\\\Validation\\\\Rules\\\\Exists\\:\\:where\\(\\) expects array\\|int\\|string\\|null, mixed given\\.$#"
+			count: 2
+			path: app/Domains/Auth/Http/Requests/Backend/User/UpdateUserRequest.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Listeners\\\\RoleEventListener\\:\\:onCreated\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Listeners/RoleEventListener.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Listeners\\\\RoleEventListener\\:\\:onCreated\\(\\) has parameter \\$event with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Listeners/RoleEventListener.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Listeners\\\\RoleEventListener\\:\\:onDeleted\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Listeners/RoleEventListener.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Listeners\\\\RoleEventListener\\:\\:onDeleted\\(\\) has parameter \\$event with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Listeners/RoleEventListener.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Listeners\\\\RoleEventListener\\:\\:onUpdated\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Listeners/RoleEventListener.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Listeners\\\\RoleEventListener\\:\\:onUpdated\\(\\) has parameter \\$event with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Listeners/RoleEventListener.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Listeners\\\\RoleEventListener\\:\\:subscribe\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Listeners/RoleEventListener.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Listeners\\\\UserEventListener\\:\\:onCreated\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Listeners/UserEventListener.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Listeners\\\\UserEventListener\\:\\:onCreated\\(\\) has parameter \\$event with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Listeners/UserEventListener.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Listeners\\\\UserEventListener\\:\\:onDeleted\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Listeners/UserEventListener.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Listeners\\\\UserEventListener\\:\\:onDeleted\\(\\) has parameter \\$event with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Listeners/UserEventListener.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Listeners\\\\UserEventListener\\:\\:onDestroyed\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Listeners/UserEventListener.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Listeners\\\\UserEventListener\\:\\:onDestroyed\\(\\) has parameter \\$event with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Listeners/UserEventListener.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Listeners\\\\UserEventListener\\:\\:onLoggedIn\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Listeners/UserEventListener.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Listeners\\\\UserEventListener\\:\\:onLoggedIn\\(\\) has parameter \\$event with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Listeners/UserEventListener.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Listeners\\\\UserEventListener\\:\\:onPasswordReset\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Listeners/UserEventListener.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Listeners\\\\UserEventListener\\:\\:onPasswordReset\\(\\) has parameter \\$event with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Listeners/UserEventListener.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Listeners\\\\UserEventListener\\:\\:onRestored\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Listeners/UserEventListener.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Listeners\\\\UserEventListener\\:\\:onRestored\\(\\) has parameter \\$event with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Listeners/UserEventListener.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Listeners\\\\UserEventListener\\:\\:onStatusChanged\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Listeners/UserEventListener.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Listeners\\\\UserEventListener\\:\\:onStatusChanged\\(\\) has parameter \\$event with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Listeners/UserEventListener.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Listeners\\\\UserEventListener\\:\\:onUpdated\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Listeners/UserEventListener.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Listeners\\\\UserEventListener\\:\\:onUpdated\\(\\) has parameter \\$event with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Listeners/UserEventListener.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Listeners\\\\UserEventListener\\:\\:subscribe\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Listeners/UserEventListener.php
+
+		-
+			message: "#^PHPDoc type array of property App\\\\Domains\\\\Auth\\\\Models\\\\PasswordHistory\\:\\:\\$fillable is not covariant with PHPDoc type array\\<string\\> of overridden property Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:\\$fillable\\.$#"
+			count: 1
+			path: app/Domains/Auth/Models/PasswordHistory.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Models\\\\Permission\\:\\:scopeIsChild\\(\\) has parameter \\$query with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Models/Permission.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Models\\\\Permission\\:\\:scopeIsMaster\\(\\) has parameter \\$query with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Models/Permission.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Models\\\\Permission\\:\\:scopeIsParent\\(\\) has parameter \\$query with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Models/Permission.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Models\\\\Permission\\:\\:scopeSingular\\(\\) has parameter \\$query with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Models/Permission.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Domains\\\\Auth\\\\Models\\\\Role\\:\\:\\$name\\.$#"
+			count: 1
+			path: app/Domains/Auth/Models/Role.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Models\\\\Role\\:\\:scopeSearch\\(\\) has parameter \\$query with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Models/Role.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Models\\\\Role\\:\\:scopeSearch\\(\\) has parameter \\$term with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Models/Role.php
+
+		-
+			message: "#^PHPDoc tag @return with type mixed is not subtype of native type bool\\.$#"
+			count: 1
+			path: app/Domains/Auth/Models/Role.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Models\\\\User\\:\\:canChangeEmail\\(\\) should return bool but returns mixed\\.$#"
+			count: 1
+			path: app/Domains/Auth/Models/User.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Models\\\\User\\:\\:isType\\(\\) has parameter \\$type with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Models/User.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Models\\\\User\\:\\:scopeAdmins\\(\\) has parameter \\$query with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Models/User.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Models\\\\User\\:\\:scopeAllAccess\\(\\) has parameter \\$query with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Models/User.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Models\\\\User\\:\\:scopeByType\\(\\) has parameter \\$query with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Models/User.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Models\\\\User\\:\\:scopeByType\\(\\) has parameter \\$type with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Models/User.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Models\\\\User\\:\\:scopeOnlyActive\\(\\) has parameter \\$query with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Models/User.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Models\\\\User\\:\\:scopeOnlyDeactivated\\(\\) has parameter \\$query with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Models/User.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Models\\\\User\\:\\:scopeSearch\\(\\) has parameter \\$query with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Models/User.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Models\\\\User\\:\\:scopeSearch\\(\\) has parameter \\$term with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Models/User.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Models\\\\User\\:\\:scopeUsers\\(\\) has parameter \\$query with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Models/User.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Models\\\\User\\:\\:setPasswordAttribute\\(\\) has parameter \\$password with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Models/User.php
+
+		-
+			message: "#^PHPDoc tag @param has invalid value \\(void\\)\\: Unexpected token \"\\\\n     \\* \", expected variable at offset 100$#"
+			count: 1
+			path: app/Domains/Auth/Models/User.php
+
+		-
+			message: "#^PHPDoc tag @param has invalid value \\(void\\)\\: Unexpected token \"\\\\n     \\* \", expected variable at offset 89$#"
+			count: 1
+			path: app/Domains/Auth/Models/User.php
+
+		-
+			message: "#^PHPDoc tag @return with type mixed is not subtype of native type bool\\.$#"
+			count: 4
+			path: app/Domains/Auth/Models/User.php
+
+		-
+			message: "#^PHPDoc tag @throws with type Creativeorange\\\\Gravatar\\\\Exceptions\\\\InvalidEmailException is not subtype of Throwable$#"
+			count: 1
+			path: app/Domains/Auth/Models/User.php
+
+		-
+			message: "#^PHPDoc type array of property App\\\\Domains\\\\Auth\\\\Models\\\\User\\:\\:\\$fillable is not covariant with PHPDoc type array\\<string\\> of overridden property Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:\\$fillable\\.$#"
+			count: 1
+			path: app/Domains/Auth/Models/User.php
+
+		-
+			message: "#^Parameter \\#1 \\$callback of method Illuminate\\\\Support\\\\Collection\\<int\\|string,mixed\\>\\:\\:each\\(\\) expects callable\\(mixed, int\\|string\\)\\: bool\\|void, Closure\\(mixed\\)\\: string given\\.$#"
+			count: 1
+			path: app/Domains/Auth/Models/User.php
+
+		-
+			message: "#^Parameter \\#1 \\$roles of method App\\\\Domains\\\\Auth\\\\Models\\\\User\\:\\:hasRole\\(\\) expects array\\|Illuminate\\\\Support\\\\Collection\\|int\\|Spatie\\\\Permission\\\\Contracts\\\\Role\\|string, mixed given\\.$#"
+			count: 1
+			path: app/Domains/Auth/Models/User.php
+
+		-
+			message: "#^Parameter \\#1 \\$string of function trim expects string, string\\|null given\\.$#"
+			count: 1
+			path: app/Domains/Auth/Models/User.php
+
+		-
+			message: "#^Parameter \\#1 \\$string of function ucwords expects string, mixed given\\.$#"
+			count: 1
+			path: app/Domains/Auth/Models/User.php
+
+		-
+			message: "#^Cannot call method getEmailForPasswordReset\\(\\) on mixed\\.$#"
+			count: 1
+			path: app/Domains/Auth/Notifications/Frontend/ResetPasswordNotification.php
+
+		-
+			message: "#^Parameter \\#1 \\$subject of method Illuminate\\\\Notifications\\\\Messages\\\\SimpleMessage\\:\\:subject\\(\\) expects string, array\\|string\\|null given\\.$#"
+			count: 1
+			path: app/Domains/Auth/Notifications/Frontend/ResetPasswordNotification.php
+
+		-
+			message: "#^Parameter \\#1 \\$text of method Illuminate\\\\Notifications\\\\Messages\\\\SimpleMessage\\:\\:action\\(\\) expects string, array\\|string\\|null given\\.$#"
+			count: 1
+			path: app/Domains/Auth/Notifications/Frontend/ResetPasswordNotification.php
+
+		-
+			message: "#^Cannot call method getEmailForVerification\\(\\) on mixed\\.$#"
+			count: 1
+			path: app/Domains/Auth/Notifications/Frontend/VerifyEmail.php
+
+		-
+			message: "#^Cannot call method getKey\\(\\) on mixed\\.$#"
+			count: 1
+			path: app/Domains/Auth/Notifications/Frontend/VerifyEmail.php
+
+		-
+			message: "#^Parameter \\#1 \\$subject of method Illuminate\\\\Notifications\\\\Messages\\\\SimpleMessage\\:\\:subject\\(\\) expects string, array\\|string\\|null given\\.$#"
+			count: 1
+			path: app/Domains/Auth/Notifications/Frontend/VerifyEmail.php
+
+		-
+			message: "#^Parameter \\#1 \\$text of method Illuminate\\\\Notifications\\\\Messages\\\\SimpleMessage\\:\\:action\\(\\) expects string, array\\|string\\|null given\\.$#"
+			count: 1
+			path: app/Domains/Auth/Notifications/Frontend/VerifyEmail.php
+
+		-
+			message: "#^Parameter \\#1 \\$value of method Carbon\\\\Carbon\\:\\:addMinutes\\(\\) expects int, mixed given\\.$#"
+			count: 1
+			path: app/Domains/Auth/Notifications/Frontend/VerifyEmail.php
+
+		-
+			message: "#^Cannot call method create\\(\\) on mixed\\.$#"
+			count: 1
+			path: app/Domains/Auth/Observers/UserObserver.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:passwordHistories\\(\\)\\.$#"
+			count: 1
+			path: app/Domains/Auth/Rules/UnusedPassword.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Rules\\\\UnusedPassword\\:\\:__construct\\(\\) has parameter \\$user with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Rules/UnusedPassword.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Rules\\\\UnusedPassword\\:\\:message\\(\\) should return string but returns array\\|string\\|null\\.$#"
+			count: 1
+			path: app/Domains/Auth/Rules/UnusedPassword.php
+
+		-
+			message: "#^PHPDoc tag @var has invalid value \\(\\)\\: Unexpected token \"\\\\n     \", expected type at offset 15$#"
+			count: 1
+			path: app/Domains/Auth/Rules/UnusedPassword.php
+
+		-
+			message: "#^Parameter \\#1 \\$value of static method Illuminate\\\\Hashing\\\\HashManager\\:\\:check\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: app/Domains/Auth/Rules/UnusedPassword.php
+
+		-
+			message: "#^Property App\\\\Domains\\\\Auth\\\\Rules\\\\UnusedPassword\\:\\:\\$user has no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Rules/UnusedPassword.php
+
+		-
+			message: "#^Call to an undefined static method Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:isMaster\\(\\)\\.$#"
+			count: 1
+			path: app/Domains/Auth/Services/PermissionService.php
+
+		-
+			message: "#^Call to an undefined static method Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:singular\\(\\)\\.$#"
+			count: 1
+			path: app/Domains/Auth/Services/PermissionService.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:syncPermissions\\(\\)\\.$#"
+			count: 1
+			path: app/Domains/Auth/Services/RoleService.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Services\\\\RoleService\\:\\:store\\(\\) should return App\\\\Domains\\\\Auth\\\\Models\\\\Role but returns Illuminate\\\\Database\\\\Eloquent\\\\Model\\.$#"
+			count: 1
+			path: app/Domains/Auth/Services/RoleService.php
+
+		-
+			message: "#^Parameter \\#1 \\$message of class App\\\\Exceptions\\\\GeneralException constructor expects string, array\\|string\\|null given\\.$#"
+			count: 4
+			path: app/Domains/Auth/Services/RoleService.php
+
+		-
+			message: "#^Parameter \\#1 \\$role of class App\\\\Domains\\\\Auth\\\\Events\\\\Role\\\\RoleCreated constructor expects App\\\\Domains\\\\Auth\\\\Models\\\\Role, Illuminate\\\\Database\\\\Eloquent\\\\Model given\\.$#"
+			count: 1
+			path: app/Domains/Auth/Services/RoleService.php
+
+		-
+			message: "#^Access to undefined constant Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:TYPE_ADMIN\\.$#"
+			count: 1
+			path: app/Domains/Auth/Services/UserService.php
+
+		-
+			message: "#^Access to undefined constant Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:TYPE_USER\\.$#"
+			count: 1
+			path: app/Domains/Auth/Services/UserService.php
+
+		-
+			message: "#^Call to an undefined static method Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:byType\\(\\)\\.$#"
+			count: 2
+			path: app/Domains/Auth/Services/UserService.php
+
+		-
+			message: "#^Cannot call method flash\\(\\) on mixed\\.$#"
+			count: 1
+			path: app/Domains/Auth/Services/UserService.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Services\\\\UserService\\:\\:createUser\\(\\) should return App\\\\Domains\\\\Auth\\\\Models\\\\User but returns Illuminate\\\\Database\\\\Eloquent\\\\Model\\.$#"
+			count: 1
+			path: app/Domains/Auth/Services/UserService.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Services\\\\UserService\\:\\:getByType\\(\\) has parameter \\$type with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Services/UserService.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Services\\\\UserService\\:\\:mark\\(\\) has parameter \\$status with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Services/UserService.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Services\\\\UserService\\:\\:registerProvider\\(\\) has parameter \\$info with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Services/UserService.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Services\\\\UserService\\:\\:registerProvider\\(\\) has parameter \\$provider with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Services/UserService.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Services\\\\UserService\\:\\:registerProvider\\(\\) should return App\\\\Domains\\\\Auth\\\\Models\\\\User but returns Illuminate\\\\Database\\\\Eloquent\\\\Model\\.$#"
+			count: 1
+			path: app/Domains/Auth/Services/UserService.php
+
+		-
+			message: "#^Method App\\\\Domains\\\\Auth\\\\Services\\\\UserService\\:\\:updatePassword\\(\\) has parameter \\$data with no type specified\\.$#"
+			count: 1
+			path: app/Domains/Auth/Services/UserService.php
+
+		-
+			message: "#^PHPDoc tag @return with type mixed is not subtype of native type App\\\\Domains\\\\Auth\\\\Models\\\\User\\.$#"
+			count: 2
+			path: app/Domains/Auth/Services/UserService.php
+
+		-
+			message: "#^Parameter \\#1 \\$message of class App\\\\Exceptions\\\\GeneralException constructor expects string, array\\|string\\|null given\\.$#"
+			count: 11
+			path: app/Domains/Auth/Services/UserService.php
+
+		-
+			message: "#^Parameter \\#2 \\$hashedValue of static method Illuminate\\\\Hashing\\\\HashManager\\:\\:check\\(\\) expects string, string\\|null given\\.$#"
+			count: 1
+			path: app/Domains/Auth/Services/UserService.php
+
+		-
+			message: "#^Method App\\\\Exceptions\\\\GeneralException\\:\\:render\\(\\) has parameter \\$request with no type specified\\.$#"
+			count: 1
+			path: app/Exceptions/GeneralException.php
+
+		-
+			message: "#^Method App\\\\Exceptions\\\\GeneralException\\:\\:render\\(\\) should return Illuminate\\\\Http\\\\Response but returns Illuminate\\\\Http\\\\RedirectResponse\\.$#"
+			count: 1
+			path: app/Exceptions/GeneralException.php
+
+		-
+			message: "#^Method App\\\\Exceptions\\\\GeneralException\\:\\:report\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: app/Exceptions/GeneralException.php
+
+		-
+			message: "#^PHPDoc tag @param has invalid value \\(\\\\Illuminate\\\\Http\\\\Request\\)\\: Unexpected token \"\\\\n     \\* \", expected variable at offset 101$#"
+			count: 1
+			path: app/Exceptions/GeneralException.php
+
+		-
+			message: "#^PHPDoc tag @var has invalid value \\(\\)\\: Unexpected token \"\\\\n     \", expected type at offset 15$#"
+			count: 1
+			path: app/Exceptions/GeneralException.php
+
+		-
+			message: "#^Property App\\\\Exceptions\\\\GeneralException\\:\\:\\$message has no type specified\\.$#"
+			count: 1
+			path: app/Exceptions/GeneralException.php
+
+		-
+			message: "#^Expression on left side of \\?\\? is not nullable\\.$#"
+			count: 1
+			path: app/Exceptions/Handler.php
+
+		-
+			message: "#^PHPDoc type array of property App\\\\Exceptions\\\\Handler\\:\\:\\$dontFlash is not covariant with PHPDoc type array\\<string\\> of overridden property Illuminate\\\\Foundation\\\\Exceptions\\\\Handler\\:\\:\\$dontFlash\\.$#"
+			count: 1
+			path: app/Exceptions/Handler.php
+
+		-
+			message: "#^PHPDoc type array of property App\\\\Exceptions\\\\Handler\\:\\:\\$dontReport is not covariant with PHPDoc type array\\<string\\> of overridden property Illuminate\\\\Foundation\\\\Exceptions\\\\Handler\\:\\:\\$dontReport\\.$#"
+			count: 1
+			path: app/Exceptions/Handler.php
+
+		-
+			message: "#^Method App\\\\Exceptions\\\\ReportableException\\:\\:render\\(\\) has parameter \\$request with no type specified\\.$#"
+			count: 1
+			path: app/Exceptions/ReportableException.php
+
+		-
+			message: "#^Method App\\\\Exceptions\\\\ReportableException\\:\\:render\\(\\) should return Illuminate\\\\Http\\\\Response but returns Illuminate\\\\Http\\\\RedirectResponse\\.$#"
+			count: 1
+			path: app/Exceptions/ReportableException.php
+
+		-
+			message: "#^Method App\\\\Exceptions\\\\ReportableException\\:\\:report\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: app/Exceptions/ReportableException.php
+
+		-
+			message: "#^PHPDoc tag @param has invalid value \\(\\\\Illuminate\\\\Http\\\\Request\\)\\: Unexpected token \"\\\\n     \\* \", expected variable at offset 101$#"
+			count: 1
+			path: app/Exceptions/ReportableException.php
+
+		-
+			message: "#^PHPDoc tag @var has invalid value \\(\\)\\: Unexpected token \"\\\\n     \", expected type at offset 15$#"
+			count: 1
+			path: app/Exceptions/ReportableException.php
+
+		-
+			message: "#^Property App\\\\Exceptions\\\\ReportableException\\:\\:\\$message has no type specified\\.$#"
+			count: 1
+			path: app/Exceptions/ReportableException.php
+
+		-
+			message: "#^Cannot call method isAdmin\\(\\) on App\\\\Domains\\\\Auth\\\\Models\\\\User\\|null\\.$#"
+			count: 1
+			path: app/Helpers/Global/GeneralHelper.php
+
+		-
+			message: "#^Cannot call method isUser\\(\\) on App\\\\Domains\\\\Auth\\\\Models\\\\User\\|null\\.$#"
+			count: 1
+			path: app/Helpers/Global/GeneralHelper.php
+
+		-
+			message: "#^Function carbon\\(\\) has parameter \\$time with no type specified\\.$#"
+			count: 1
+			path: app/Helpers/Global/GeneralHelper.php
+
+		-
+			message: "#^Function activeClass\\(\\) has parameter \\$condition with no type specified\\.$#"
+			count: 1
+			path: app/Helpers/Global/HtmlHelper.php
+
+		-
+			message: "#^Function htmlLang\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: app/Helpers/Global/HtmlHelper.php
+
+		-
+			message: "#^Cannot access offset 'name' on mixed\\.$#"
+			count: 1
+			path: app/Helpers/Global/LocaleHelper.php
+
+		-
+			message: "#^Cannot access offset 'rtl' on mixed\\.$#"
+			count: 1
+			path: app/Helpers/Global/LocaleHelper.php
+
+		-
+			message: "#^Cannot access offset mixed on mixed\\.$#"
+			count: 2
+			path: app/Helpers/Global/LocaleHelper.php
+
+		-
+			message: "#^Cannot call method forget\\(\\) on mixed\\.$#"
+			count: 1
+			path: app/Helpers/Global/LocaleHelper.php
+
+		-
+			message: "#^Function getLocaleName\\(\\) has parameter \\$locale with no type specified\\.$#"
+			count: 1
+			path: app/Helpers/Global/LocaleHelper.php
+
+		-
+			message: "#^Function setAllLocale\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: app/Helpers/Global/LocaleHelper.php
+
+		-
+			message: "#^Function setAllLocale\\(\\) has parameter \\$locale with no type specified\\.$#"
+			count: 1
+			path: app/Helpers/Global/LocaleHelper.php
+
+		-
+			message: "#^Function setAppLocale\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: app/Helpers/Global/LocaleHelper.php
+
+		-
+			message: "#^Function setAppLocale\\(\\) has parameter \\$locale with no type specified\\.$#"
+			count: 1
+			path: app/Helpers/Global/LocaleHelper.php
+
+		-
+			message: "#^Function setCarbonLocale\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: app/Helpers/Global/LocaleHelper.php
+
+		-
+			message: "#^Function setCarbonLocale\\(\\) has parameter \\$locale with no type specified\\.$#"
+			count: 1
+			path: app/Helpers/Global/LocaleHelper.php
+
+		-
+			message: "#^Function setLocaleReadingDirection\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: app/Helpers/Global/LocaleHelper.php
+
+		-
+			message: "#^Function setLocaleReadingDirection\\(\\) has parameter \\$locale with no type specified\\.$#"
+			count: 1
+			path: app/Helpers/Global/LocaleHelper.php
+
+		-
+			message: "#^Function setPHPLocale\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: app/Helpers/Global/LocaleHelper.php
+
+		-
+			message: "#^Function setPHPLocale\\(\\) has parameter \\$locale with no type specified\\.$#"
+			count: 1
+			path: app/Helpers/Global/LocaleHelper.php
+
+		-
+			message: "#^Cannot call method getExtension\\(\\) on mixed\\.$#"
+			count: 1
+			path: app/Helpers/Global/SystemHelper.php
+
+		-
+			message: "#^Function includeFilesInFolder\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: app/Helpers/Global/SystemHelper.php
+
+		-
+			message: "#^Function includeFilesInFolder\\(\\) has parameter \\$folder with no type specified\\.$#"
+			count: 1
+			path: app/Helpers/Global/SystemHelper.php
+
+		-
+			message: "#^Function includeRouteFiles\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: app/Helpers/Global/SystemHelper.php
+
+		-
+			message: "#^Function includeRouteFiles\\(\\) has parameter \\$folder with no type specified\\.$#"
+			count: 1
+			path: app/Helpers/Global/SystemHelper.php
+
+		-
+			message: "#^Function timezone\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: app/Helpers/Global/TimezoneHelper.php
+
+		-
+			message: "#^Cannot call method has\\(\\) on mixed\\.$#"
+			count: 1
+			path: app/Http/Controllers/Frontend/User/ProfileController.php
+
+		-
+			message: "#^Parameter \\#1 \\$user of method App\\\\Domains\\\\Auth\\\\Services\\\\UserService\\:\\:updateProfile\\(\\) expects App\\\\Domains\\\\Auth\\\\Models\\\\User, mixed given\\.$#"
+			count: 1
+			path: app/Http/Controllers/Frontend/User/ProfileController.php
+
+		-
+			message: "#^Cannot call method put\\(\\) on mixed\\.$#"
+			count: 1
+			path: app/Http/Controllers/LocaleController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\LocaleController\\:\\:change\\(\\) has parameter \\$locale with no type specified\\.$#"
+			count: 1
+			path: app/Http/Controllers/LocaleController.php
+
+		-
+			message: "#^PHPDoc type array of property App\\\\Http\\\\Kernel\\:\\:\\$middlewarePriority is not covariant with PHPDoc type array\\<string\\> of overridden property Illuminate\\\\Foundation\\\\Http\\\\Kernel\\:\\:\\$middlewarePriority\\.$#"
+			count: 1
+			path: app/Http/Kernel.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Livewire\\\\Backend\\\\RolesTable\\:\\:query\\(\\) should return Illuminate\\\\Database\\\\Eloquent\\\\Builder but returns mixed\\.$#"
+			count: 1
+			path: app/Http/Livewire/Backend/RolesTable.php
+
+		-
+			message: "#^Parameter \\#1 \\$text of static method Rappasoft\\\\LaravelLivewireTables\\\\Views\\\\Column\\:\\:make\\(\\) expects string\\|null, array\\|string\\|null given\\.$#"
+			count: 5
+			path: app/Http/Livewire/Backend/RolesTable.php
+
+		-
+			message: "#^Cannot call method when\\(\\) on mixed\\.$#"
+			count: 1
+			path: app/Http/Livewire/Backend/UsersTable.php
+
+		-
+			message: "#^PHPDoc tag @var has invalid value \\(\\)\\: Unexpected token \"\\\\n     \", expected type at offset 15$#"
+			count: 1
+			path: app/Http/Livewire/Backend/UsersTable.php
+
+		-
+			message: "#^Parameter \\#1 \\$text of static method Rappasoft\\\\LaravelLivewireTables\\\\Views\\\\Column\\:\\:make\\(\\) expects string\\|null, array\\|string\\|null given\\.$#"
+			count: 8
+			path: app/Http/Livewire/Backend/UsersTable.php
+
+		-
+			message: "#^Property App\\\\Http\\\\Livewire\\\\Backend\\\\UsersTable\\:\\:\\$status has no type specified\\.$#"
+			count: 1
+			path: app/Http/Livewire/Backend/UsersTable.php
+
+		-
+			message: "#^Cannot call method confirmTwoFactorAuth\\(\\) on mixed\\.$#"
+			count: 1
+			path: app/Http/Livewire/Frontend/TwoFactorAuthentication.php
+
+		-
+			message: "#^Cannot call method flash\\(\\) on mixed\\.$#"
+			count: 1
+			path: app/Http/Livewire/Frontend/TwoFactorAuthentication.php
+
+		-
+			message: "#^PHPDoc tag @var has invalid value \\(\\)\\: Unexpected token \"\\\\n     \", expected type at offset 15$#"
+			count: 1
+			path: app/Http/Livewire/Frontend/TwoFactorAuthentication.php
+
+		-
+			message: "#^Property App\\\\Http\\\\Livewire\\\\Frontend\\\\TwoFactorAuthentication\\:\\:\\$code has no type specified\\.$#"
+			count: 1
+			path: app/Http/Livewire/Frontend/TwoFactorAuthentication.php
+
+		-
+			message: "#^Cannot call method get\\(\\) on mixed\\.$#"
+			count: 1
+			path: app/Http/Middleware/LocaleMiddleware.php
+
+		-
+			message: "#^Cannot call method has\\(\\) on mixed\\.$#"
+			count: 1
+			path: app/Http/Middleware/LocaleMiddleware.php
+
+		-
+			message: "#^Cannot access property \\$id on mixed\\.$#"
+			count: 1
+			path: app/Http/Requests/Frontend/User/UpdateProfileRequest.php
+
+		-
+			message: "#^Method App\\\\Providers\\\\BladeServiceProvider\\:\\:boot\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: app/Providers/BladeServiceProvider.php
+
+		-
+			message: "#^Method App\\\\Providers\\\\ComposerServiceProvider\\:\\:boot\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: app/Providers/ComposerServiceProvider.php
+
+		-
+			message: "#^Cannot call method getExtension\\(\\) on mixed\\.$#"
+			count: 1
+			path: app/Providers/HelperServiceProvider.php
+
+		-
+			message: "#^Cannot call method getFilename\\(\\) on mixed\\.$#"
+			count: 1
+			path: app/Providers/HelperServiceProvider.php
+
+		-
+			message: "#^Method App\\\\Providers\\\\HelperServiceProvider\\:\\:boot\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: app/Providers/HelperServiceProvider.php
+
+		-
+			message: "#^Cannot call method has\\(\\) on mixed\\.$#"
+			count: 1
+			path: app/Providers/LocaleServiceProvider.php
+
+		-
+			message: "#^Method App\\\\Providers\\\\LocaleServiceProvider\\:\\:boot\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: app/Providers/LocaleServiceProvider.php
+
+		-
+			message: "#^Method App\\\\Providers\\\\ObserverServiceProvider\\:\\:boot\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: app/Providers/ObserverServiceProvider.php
+
+		-
+			message: "#^Cannot access property \\$id on mixed\\.$#"
+			count: 1
+			path: app/Providers/RouteServiceProvider.php
+
+		-
+			message: "#^PHPDoc tag @var above a method has no effect\\.$#"
+			count: 1
+			path: app/Providers/RouteServiceProvider.php
+
+		-
+			message: "#^PHPDoc tag @var does not specify variable name\\.$#"
+			count: 1
+			path: app/Providers/RouteServiceProvider.php
+
+		-
+			message: "#^Cannot access offset 'success' on mixed\\.$#"
+			count: 2
+			path: app/Rules/Captcha.php
+
+		-
+			message: "#^Method App\\\\Rules\\\\Captcha\\:\\:message\\(\\) should return string but returns array\\|string\\|null\\.$#"
+			count: 1
+			path: app/Rules/Captcha.php
+
+		-
+			message: "#^Method App\\\\Services\\\\BaseService\\:\\:deleteById\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Services/BaseService.php
+
+		-
+			message: "#^Method App\\\\Services\\\\BaseService\\:\\:first\\(\\) should return Illuminate\\\\Database\\\\Eloquent\\\\Model but returns Illuminate\\\\Database\\\\Eloquent\\\\Model\\|null\\.$#"
+			count: 1
+			path: app/Services/BaseService.php
+
+		-
+			message: "#^Method App\\\\Services\\\\BaseService\\:\\:getByColumn\\(\\) has parameter \\$column with no type specified\\.$#"
+			count: 1
+			path: app/Services/BaseService.php
+
+		-
+			message: "#^Method App\\\\Services\\\\BaseService\\:\\:getByColumn\\(\\) has parameter \\$item with no type specified\\.$#"
+			count: 1
+			path: app/Services/BaseService.php
+
+		-
+			message: "#^Method App\\\\Services\\\\BaseService\\:\\:getById\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: app/Services/BaseService.php
+
+		-
+			message: "#^Method App\\\\Services\\\\BaseService\\:\\:getById\\(\\) should return Illuminate\\\\Database\\\\Eloquent\\\\Model but returns Illuminate\\\\Database\\\\Eloquent\\\\Collection\\<Illuminate\\\\Database\\\\Eloquent\\\\Model\\>\\|Illuminate\\\\Database\\\\Eloquent\\\\Model\\.$#"
+			count: 1
+			path: app/Services/BaseService.php
+
+		-
+			message: "#^Method App\\\\Services\\\\BaseService\\:\\:with\\(\\) has parameter \\$relations with no type specified\\.$#"
+			count: 1
+			path: app/Services/BaseService.php
+
+		-
+			message: "#^Property App\\\\Services\\\\BaseService\\:\\:\\$take \\(int\\) does not accept null\\.$#"
+			count: 1
+			path: app/Services/BaseService.php
+
+		-
+			message: "#^Property App\\\\Services\\\\BaseService\\:\\:\\$take \\(int\\) in isset\\(\\) is not nullable\\.$#"
+			count: 1
+			path: app/Services/BaseService.php
